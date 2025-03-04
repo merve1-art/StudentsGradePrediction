@@ -10,6 +10,40 @@ This project explores the factors influencing student academic performance using
 * **Content:** The dataset contains information about student demographics, social habits, and academic performance, including math and Portuguese language grades.
 * **Preprocessing:** The dataset was cleaned, merged, and preprocessed, including outlier removal, feature engineering, and one-hot encoding for categorical variables.
 
+**To import the dataset:** 
+
+**Option 1:** Downloading the Dataset Using the Kaggle API
+
+This project utilizes the "Student Alcohol Consumption" dataset from Kaggle. To download this dataset, you'll need a Kaggle account and an API token. 
+Follow these steps:
+1) Create a Kaggle Account (if you don't have one):
+2) Generate a Kaggle API Token:
+* Log in to your Kaggle account.
+* Go to your account settings (usually by clicking your profile picture).
+* In the "API" section, click "Create New API Token".
+This downloads a kaggle.json file containing your API credentials. Keep this file safe!
+3)Setting Up the Kaggle API:
+To download the dataset, you'll need to configure the Kaggle API:
+*Install the Kaggle Library: If you don't have the Kaggle library installed, open your terminal or command prompt and run:
+pip install kaggle
+* Place Your API Token:
+Locate the kaggle.json file you downloaded from your Kaggle account settings.
+* Move this file to the appropriate directory on your system:
+Windows: C:\Users\<Windows-Username>\.kaggle\
+macOS/Linux: ~/.kaggle/
+If the .kaggle directory doesn't exist, create it.
+Then go to the import_dataset file and read the code in option 1 in Python. If the system asks username during data installation from Kaggle,
+write your username in Kaggle.
+
+
+**Option 2:** Manual Download
+
+Download: Download the dataset directly from Kaggle: https://www.kaggle.com/datasets/uciml/student-alcohol-consumption
+
+Place CSV Files: Extract the downloaded ZIP file and place the student-mat.csv and student-por.csv files in your project's root directory.
+
+
+
 **Methodology:**
 
 1.  **Data Acquisition and Merging:**
